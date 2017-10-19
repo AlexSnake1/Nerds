@@ -9,7 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 </head>
 
-<body>
+<body class="inner-page">
   <header class="main-header">
     <nav class="main-navigation">
       <a class="main-header-logo" href="index.html">
@@ -37,44 +37,44 @@
         </div>
 
         <fieldset>
-          <legend>Сетка:</legend>
+          <legend><b>Сетка:</b></legend>
           <ul>
             <li>
-              <input type="radio" id="adaptive" checked>
+              <input class="filter-input" type="radio" id="adaptive" checked>
               <label for="adaptive">Адаптивная</label>
             </li>
             <li>
-              <input type="radio" id="fixed">
+              <input class="filter-input" type="radio" id="fixed">
               <label for="fixed">Фиксированная</label>
             </li>
             <li>
-              <input type="radio" id="flex">
+              <input class="filter-input" type="radio" id="flex">
               <label for="flex">Резиновая</label>
             </li>
           </ul>
         </fieldset>
 
         <fieldset>
-          <legend>Особенности:</legend>
+          <legend><b>Особенности:</b></legend>
           <ul>
             <li>
-              <input type="checkbox" id="slider" checked>
+              <input class="filter-input" type="checkbox" id="slider" checked>
               <label for="slider">Слайдер</label>
             </li>
             <li>
-              <input type="checkbox" id="features">
+              <input class="filter-input" type="checkbox" id="features">
               <label for="features">Блок преимуществ</label>
             </li>
             <li>
-              <input type="checkbox" id="news" checked>
+              <input class="filter-input" type="checkbox" id="news" checked>
               <label for="news">Новости</label>
             </li>
             <li>
-              <input type="checkbox" id="gallery">
+              <input class="filter-input" type="checkbox" id="gallery">
               <label for="gallery">Галерея</label>
             </li>
             <li>
-              <input type="checkbox" id="basket">
+              <input class="filter-input" type="checkbox" id="basket">
               <label for="basket">Корзина</label>
             </li>
           </ul>
@@ -150,7 +150,7 @@
         </div>
       </div>
       <ul class="pagination-list">
-        <li class="pagination-item"><a href="#">1</a></li>
+        <li class="pagination-item"><a class="pagination-active" href="#">1</a></li>
         <li class="pagination-item"><a href="#">2</a></li>
         <li class="pagination-item"><a href="#">3</a></li>
         <li class="pagination-item"><a href="#">Следующая</a></li>

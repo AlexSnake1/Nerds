@@ -144,7 +144,15 @@
 
 <section class="modal">
   <h2>Напишите нам</h2>
-  <form>
+  <form class="writeus-form">
+    <label for="user-name"><b>Ваше имя:</b></label>
+    <input id="user-name" type="text" name="name" placeholder="Представтесь, пожалуйста">
+    <label for="user-email"><b>Ваш e-mail:</b></label>
+    <input id="user-email" type="email" name="email" placeholder="Для отправки ответа">
+
+    <label for="user-text"><b>Текст письма:</b></label>
+    <textarea id="user-text" name="text" placeholder="В свободной форме"></textarea>
+    <input type="submit" name="feedback-submit" value="Отправить">
   </form>
 </section>
 
