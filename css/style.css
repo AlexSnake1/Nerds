@@ -204,22 +204,35 @@ a.pagination-active:active {
 
 .slider {
   background-color: #eeeeee;
+  position: relative;
 }
 
 .slide h3 {
   font-size: 55px;
-  font-weight: normal;
+  font-weight: bold;
   line-height: 55px;
+  padding: 70px 0 0 140px;
+  margin: 0;
 }
 
 .slide p {
   color: #283136;
+  padding: 27px 0 170px 140px;
+  margin: 0;
 }
 
 .slide a {
+  position: absolute;
+  bottom: 81px;
+  left: 140px;
+  display: block;
   color: white;
   background-color: #fb565a;
   text-transform: uppercase;
+  padding: 14px 0 12px 0;
+  width: 240px;
+  text-align: center;
+  border-radius: 3px;
 }
 
 .slide a:hover {
@@ -234,7 +247,7 @@ a.pagination-active:active {
 .slide-1 {
   background-image: url("../img/slide1.png");
   background-repeat: no-repeat;
-  background-position: 500px 0;
+  background-position: 571px 11px;
 }
 
 .slide-2 {
