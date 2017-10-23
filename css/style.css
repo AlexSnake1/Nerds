@@ -262,19 +262,42 @@ a.pagination-active:active {
   background-position: 500px 0;
 }
 
+.services {
+  padding-top: 79px;
+  width: 1160px;
+  margin: 0 auto;
+}
+
+.services-list {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+  border-bottom: 2px solid #eeeeee;
+}
+
 .services-list h3 {
   font-size: 24px;
   line-height: 30px;
   text-transform: uppercase;
+  padding: 0;
+  margin-top: 18px;
+  margin-bottom: 17px;
 }
 
 .services-list a {
+  display: block;
   color: white;
   text-transform: uppercase;
+  width: 160px;
+  height: 36px;
+  padding-top: 14px;
+  text-align: center;
+  border-radius: 3px;
 }
 
 .services-list p {
   color: #283136;
+  margin: 0 0 31px 0;
 }
 
 .services-1 a {
@@ -301,6 +324,10 @@ a.pagination-active:active {
 .services-2 a:focus {
   background-color: #00aa62;
   color: rgba(255, 255, 255, 0.302);
+}
+
+.services-3 {
+  padding-right: 60px;
 }
 
 .services-3 a {
