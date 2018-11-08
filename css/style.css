@@ -507,3 +507,107 @@ a.pagination-active:active {
   background-color: #fb565a;
   color: white;
 }
+
+.about-us {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 52px;
+  margin-top: 42px;
+  padding-bottom: 77px;
+  width: 1160px;
+}
+
+.about-us__introduction {
+  flex: 0 0 660px;
+}
+
+.about-us__slogan {
+  margin: 0;
+  margin-bottom: 33px;
+  padding-top: 35px;
+  font-size: 40px;
+  line-height: 45px;
+  font-weight: 500;
+}
+
+.about-us__para {
+  margin-top: 0;
+  margin-bottom: 42px;
+}
+
+.about-us__heading {
+  margin: 0;
+  margin-bottom: 29px;
+  text-transform: uppercase;
+}
+
+.about-us__list {
+  margin: 0;
+  padding: 0;
+}
+
+.about-us__item {
+  position: relative;
+  margin-bottom: 30px;
+  padding-left: 37px;
+}
+
+.about-us__item:last-of-type {
+  margin-bottom: 0;
+}
+
+.about-us__item::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 25px;
+  height: 2px;
+  background-color: #fb565a;
+}
+
+.about-us__brief {
+  flex: 0 0 360px;
+}
+
+.about-us__logo {
+  display: block;
+  margin-bottom: 39px;
+}
+
+.about-us__stats {
+  display: flex;
+  margin: 0;
+}
+
+.about-us__col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 10px;
+}
+
+.about-us__col:last-of-type {
+  margin-right: 0;
+}
+
+.about-us__col dt {
+  order: 1;
+  max-width: 110px;
+}
+
+.about-us__col dd {
+  position: relative;
+  order: 0;
+  font-size: 45px;
+  line-height: 45px;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+.about-us__percentage {
+  vertical-align: super;
+  font-size: 0.6em;
+  line-height: 0;
+}
