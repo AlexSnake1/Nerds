@@ -438,11 +438,11 @@ a.pagination-active:active {
 
 .contacts {
   background-color: white;
-  width: 210px;
+  width: 220px;
   position: absolute;
   top: 52px;
   left: 95px;
-  padding: 37px 59px 103px 50px;
+  padding: 37px 50px 45px 50px;
 }
 
 .contacs-btn {
@@ -467,6 +467,10 @@ a.pagination-active:active {
   background-color: #fb565a;
   border: none;
   font-size: 16px;
+  font: inherit;
+  width: 100%;
+  margin-top: 28px;
+  height: 50px;
 }
 
 .contacts button:hover {
@@ -478,14 +482,50 @@ a.pagination-active:active {
   color: rgba(255, 255, 255, 0.302);
 }
 
+.main-footer {
+  display: flex;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 130px;
+  margin-top: 65px;
+  margin-bottom: 60px;
+}
+
+.footer-text p {
+  margin: 0;
+  padding: 0;
+}
+
 .footer-text p:nth-child(1) {
   font-size: 36px;
   line-height: 36px;
+  margin-bottom: 10px;
 }
 
 .footer-text p:nth-child(2) {
   line-height: 22px;
   color: #444444;
+}
+
+.footer-social ul {
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+  margin-left: 90px;
+  margin-top: 60px;
+}
+
+.social-button {
+  align-items: center;
+  justify-content: center;
+  background-color: #e1e1e1;
+  display: flex;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
 }
 
 .writeus-form {
